@@ -1,3 +1,3 @@
 function myfunction() {
-    alert('helo')
+    alert('testing')
 }
