@@ -6,26 +6,23 @@
     </head>
 
     <body>
-        
-        <a href="#">BUTTON</a>
 
+        <a href="#">BUTTON</a>
         <input type="checkbox" name="checkbox" id="toggle">
         <label for="toggle" class="switch"></label>
 
         <script type="text/javascript">
             const buttons = document.querySelectorAll('a');
             buttons.forEach(btn => {
-                btn.addEventListener('click', function(e) {
+                    btn.addEventListener('mouseover', function(e) {
                     let x = e.clientX - e.target.offsetLeft;    
                     let y = e.clientY - e.target.offsetTop;
-
                     let ripples = document.createElement('span');
                     ripples.style.left = x + 'px';
                     ripples.style.top = y + 'px';
                     this.appendChild(ripples);
-
                     setTimeout(() => {
-                       ripples.remove() 
+                        ripples.remove() 
                     }, 1000);
                 })
             })
@@ -34,3 +31,7 @@
     </body>
 </html>
 
+
+
+        <!-- <button onclick="testing()">BUTTON</button>
+        <p id="demo"></p> -->
