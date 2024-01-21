@@ -13,7 +13,7 @@ body {
   background: #040d15;
 }
 
-a 
+a
 {
   position: relative;
   display: inline-block;
@@ -30,14 +30,14 @@ a
   overflow: hidden;
 }
 
-a:nth-child(2) {
+/* a:nth-child(2) {
   background: linear-gradient(90deg, #755bea, #ff72c0) ;
 }
 
 a:nth-child(3) {
   background: linear-gradient(90deg, #755bea, #ffffff) ;
-}
-span {
+} */
+.menu:hover span {
   position: absolute;
   background: #fff;
   transform: translate(-50%, -50%);
@@ -46,7 +46,7 @@ span {
   animation: animate 1s linear infinite;
 }
 
-button {
+button.menu {
   position: relative;
   display: inline-block;
   padding: 12px 36px;
@@ -114,3 +114,34 @@ input[type= "checkbox"]:checked + .switch{
 input[type = "checkbox"]{
   display: none;
 }
+
+.container {
+  margin: 220px auto;
+  background-color: #fff;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.8s;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container:hover input {
+  width: 350px;
+}
+
+.container input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.container a {
+  color: #0162c8;
+} 
+
