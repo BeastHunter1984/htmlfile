@@ -8,11 +8,11 @@
 
     <body>
 
-        <a href="#">Button</a> 
-        <div class="menu">
+        <a href="">Button</a> 
+        <!-- <div class="menu">
             <input type="checkbox" name="checkbox" id="toggle">
             <label for="toggle" class="switch"></label>
-        </div>
+        </div> -->
 
         <div class="container">
             <input type="text" placeholder="search">
@@ -23,7 +23,7 @@
         <script type="text/javascript">
             const buttons = document.querySelectorAll('a');
             buttons.forEach(btn => {
-                    btn.addEventListener('mouseover', function(e) {
+                    btn.addEventListener('onclick', function(e) {
                     let x = e.clientX - e.target.offsetLeft;    
                     let y = e.clientY - e.target.offsetTop;
                     let ripples = document.createElement('span');

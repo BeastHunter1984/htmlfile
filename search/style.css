@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
-html {
-  font-size: 62.5;
+*{
+  margin: 0%;
+  padding: 0%;
 }
-
 body {
   display: flex;
   justify-content: center;
@@ -39,6 +37,6 @@ body {
     transition: 0.8s;
 }
 
-.container li .fas{
-    color: #aa00ff;
+.container span {
+  color: #0066ff;
 }
