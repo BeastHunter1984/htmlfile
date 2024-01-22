@@ -8,7 +8,7 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  background: #040d15;
+  background:linear-gradient(90deg, #0162c8, #c300ff);
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     transition: 0.8s;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4); */
 }
 
 .container:hover input {
@@ -28,15 +28,15 @@ body {
 }
 
 .container input {
-    background: transparent;
-    border: none;
-    outline: none;
-    width: 0px;
-    font-weight: 500;
-    font-size: 16px;
-    transition: 0.8s;
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
 }
 
 .container span {
-  color: #0066ff;
+  color: blueviolet;
 }
