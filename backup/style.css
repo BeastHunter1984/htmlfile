@@ -120,7 +120,7 @@ input[type = "checkbox"]{
 }
 
 .container {
-  margin: 220px auto;
+  margin: 2px auto;
   background-color: #fff;
   border: #000000 solid 2px;
   height: 30px;
@@ -133,7 +133,7 @@ input[type = "checkbox"]{
 }
 
 .container:hover input {
-  width: 350px;
+  width: 200px;
 }
 
 .container input{
