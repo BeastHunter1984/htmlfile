@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 *{
   margin: 0%;
   padding: 0%;
@@ -20,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     transition: 0.8s;
-    /* box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4); */
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
 }
 
 .container:hover input {
@@ -39,4 +41,23 @@ body {
 
 .container span {
   color: blueviolet;
+}
+
+.sign {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: #fbfcfd;
+  padding: 10px, 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
 }
