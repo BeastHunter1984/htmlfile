@@ -154,7 +154,10 @@ input[type = "checkbox"]{
   color: #0162c8;
   background: transparent;
   animation: search 1s linear;
+  outline: none;
+  border: none;
 } 
+
 
 @keyframes search
 {
