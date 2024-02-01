@@ -10,7 +10,8 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  background: #040d15;
+  /* background-image: url(background.png); */
+  background: #1b1b1b;
 }
 
 a
@@ -125,11 +126,10 @@ input[type = "checkbox"]{
   border: #ffffff solid 2px;
   height: 30px;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   display: flex;
   align-items: center;
   transition: 0.8s;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
 }
 
 .container:hover input {
@@ -137,6 +137,7 @@ input[type = "checkbox"]{
   color: #6b6b6b;
   animation: search 1.5s linear;
 }
+
 
 .container input{
   background: transparent;
